@@ -9,7 +9,7 @@
       "critical": false
     },
     "beta": {
-      "version": "2.2.0-beta.1",
+      "version": "2.2.0",
       "releaseDate": "2026-02-08",
       "releaseNotes": "- [BETA] OTA automático con verificación de firma\n- [BETA] Integración con Google Home / Alexa\n- [BETA] Efectos de transición entre colores\n- [BETA] Modo arcoíris dinámico\n- Optimizaciones de memoria (15% menos RAM)",
       "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/main/firmware/ESP32_LED_Clock_2.2.0-beta.1.bin",
@@ -17,7 +17,7 @@
       "critical": false
     },
     "alpha": {
-      "version": "0.1.4-alpha",
+      "version": "0.1.4",
       "releaseDate": "2026-02-08",
       "releaseNotes": "- [EXPERIMENTAL] Test de nuevos algoritmos de brillo\n- [EXPERIMENTAL] Soporte para múltiples tiras LED\n- [EXPERIMENTAL] API REST completa\n- [INESTABLE] Puede tener bugs críticos\n- NO usar en producción",
       "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/main/firmware/ESP32_LED_Clock_0.1.4-alpha.bin",
