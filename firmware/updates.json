@@ -1,0 +1,41 @@
+{
+  "channels": {
+    "stable": {
+      "version": "2.1.0",
+      "releaseDate": "2026-02-07",
+      "releaseNotes": "- Filtro LDR con promedio móvil (elimina parpadeos)\n- Sistema de actualizaciones con notificaciones\n- Indicador de luz ambiente en tiempo real\n- Fix: Modo nocturno ahora se guarda correctamente\n- Mejoras en fade de brillo (40x más rápido)",
+      "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/main/firmware/ESP32_LED_Clock_2.1.0.bin",
+      "minVersion": "2.0.0",
+      "critical": false
+    },
+    "beta": {
+      "version": "2.2.0-beta.1",
+      "releaseDate": "2026-02-08",
+      "releaseNotes": "- [BETA] OTA automático con verificación de firma\n- [BETA] Integración con Google Home / Alexa\n- [BETA] Efectos de transición entre colores\n- [BETA] Modo arcoíris dinámico\n- Optimizaciones de memoria (15% menos RAM)",
+      "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/main/firmware/ESP32_LED_Clock_2.2.0-beta.1.bin",
+      "minVersion": "2.1.0",
+      "critical": false
+    },
+    "alpha": {
+      "version": "0.1.4-alpha",
+      "releaseDate": "2026-02-08",
+      "releaseNotes": "- [EXPERIMENTAL] Test de nuevos algoritmos de brillo\n- [EXPERIMENTAL] Soporte para múltiples tiras LED\n- [EXPERIMENTAL] API REST completa\n- [INESTABLE] Puede tener bugs críticos\n- NO usar en producción",
+      "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/main/firmware/ESP32_LED_Clock_0.1.4-alpha.bin",
+      "minVersion": "0.1.0-alpha",
+      "critical": false
+    },
+    "hotfix": {
+      "version": "2.1.1",
+      "releaseDate": "2026-02-08",
+      "releaseNotes": "- [CRÍTICO] Fix de seguridad en endpoint /saveConfig\n- [CRÍTICO] Fix memory leak en sensor LDR\n- Actualización recomendada inmediatamente",
+      "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/main/firmware/ESP32_LED_Clock_2.1.1.bin",
+      "minVersion": "2.0.0",
+      "critical": true
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2026-02-08T15:30:00Z",
+    "apiVersion": "1.0",
+    "changelogUrl": "https://github.com/AndyGotfridt/esp-lab/blob/main/CHANGELOG.md"
+  }
+}
