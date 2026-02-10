@@ -18,8 +18,8 @@
             "name": "index.html",
             "url": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/2281c80/firmware/assets/alpha/index.html",
             "path": "/index.html",
-            "sha256": "8f81d6adc0deb836d27ea221b4ed13d623291b242eed95fe0673250b18484efb",
-            "size": 42061
+            "sha256": "e18f5a33eff880527e0170b735bcabcf7a4578eb78d874af6a1f6eee1f71b3fe",
+            "size": 42071
           }
         ]
       },
@@ -38,8 +38,8 @@
             "name": "index.html",
             "url": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/6f3a052/firmware/assets/alpha/index.html",
             "path": "/index.html",
-            "sha256": "e18f5a33eff880527e0170b735bcabcf7a4578eb78d874af6a1f6eee1f71b3fe",
-            "size": 42071
+            "sha256": "4bbc609450a2eb394ecd1a8676992d9cade4491c465e232a735d7b8ee42d3b54",
+            "size": 38977
           }
         ]
       }
