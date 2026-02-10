@@ -4,6 +4,26 @@
     "beta": [],
     "alpha": [
       {
+        "version": "0.1.4",
+        "releaseDate": "2026-02-10",
+        "releaseNotes": "TESSSSSS",
+        "downloadUrl": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/2281c80/firmware/bin/ESP32_LED_Clock_0_1_4.bin",
+        "sha256": "6be051f9cd14eb82b3c3af0e47bc6fcb47ee8dbf3444d74f48f06a0c1db41949",
+        "size": 1357328,
+        "minVersion": "0.1.3",
+        "critical": true,
+        "gitCommit": "2281c80",
+        "webAssets": [
+          {
+            "name": "index.html",
+            "url": "https://raw.githubusercontent.com/AndyGotfridt/esp-lab/2281c80/firmware/assets/alpha/index.html",
+            "path": "/index.html",
+            "sha256": "8f81d6adc0deb836d27ea221b4ed13d623291b242eed95fe0673250b18484efb",
+            "size": 42061
+          }
+        ]
+      },
+      {
         "version": "0.1.3",
         "releaseDate": "2026-02-10",
         "releaseNotes": "prueba ota itermedia",
@@ -27,7 +47,7 @@
     "hotfix": []
   },
   "metadata": {
-    "lastUpdated": "2026-02-10T00:52:43.027Z",
+    "lastUpdated": "2026-02-10T00:57:35.739Z",
     "apiVersion": "1.0",
     "project": "ESP32 LED Clock",
     "repository": "https://github.com/AndyGotfridt/esp-lab",
