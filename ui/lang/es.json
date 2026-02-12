@@ -1,0 +1,171 @@
+{
+  "language": "es",
+  "version": "0.0.1",
+  "branch": "alpha",
+  "header": {
+    "title": "RELOJ LED",
+    "by": "by",
+    "advanced_settings": "Configuración Avanzada"
+  },
+  "display_colors": {
+    "title": "Colores del Display",
+    "hours": "Horas",
+    "separator": "Separador",
+    "minutes": "Minutos"
+  },
+  "themes": {
+    "title": "Temas Rápidos",
+    "classic": "Clásico",
+    "neon": "Neón",
+    "rainbow": "Arcoíris",
+    "ocean": "Océano",
+    "fire": "Fuego",
+    "matrix": "Matrix",
+    "purple": "Púrpura",
+    "sunset": "Sunset",
+    "white": "Blanco"
+  },
+  "preview": {
+    "title": "Vista Previa",
+    "subtitle": "Hora en tiempo real"
+  },
+  "brightness": {
+    "title": "Control de Brillo",
+    "auto_brightness": "Brillo automático",
+    "auto_brightness_tooltip": "Requiere sensor LDR conectado para funcionar correctamente",
+    "manual_brightness": "Brillo manual",
+    "min_brightness": "Brillo mínimo",
+    "max_brightness": "Brillo máximo",
+    "light": "Luz",
+    "brightness": "Brillo",
+    "night_mode_warning": "Modo nocturno activo:",
+    "night_mode_warning_text": "Los cambios de brillo manual no se aplicarán hasta que finalice el horario nocturno."
+  },
+  "night_mode": {
+    "title": "Modo Nocturno",
+    "tooltip": "El modo nocturno reduce el brillo automáticamente en el horario configurado",
+    "enabled": "Habilitado",
+    "night_brightness": "Brillo nocturno",
+    "start_time": "Inicio",
+    "end_time": "Fin"
+  },
+  "buttons": {
+    "save": "Guardar Configuración",
+    "save_tooltip": "Los cambios se guardan automáticamente después de 500ms",
+    "close": "Cerrar",
+    "save_changes": "Guardar Cambios",
+    "later": "Más tarde",
+    "cancel": "Cancelar",
+    "retry": "Reintentar",
+    "test_leds": "Test LEDs"
+  },
+  "modal_advanced": {
+    "title": "Configuración",
+    "timezone": {
+      "title": "Zona Horaria",
+      "label": "Selecciona tu zona horaria",
+      "search_placeholder": "Buscar ciudad o país...",
+      "groups": {
+        "america": "América",
+        "europe_africa": "Europa & África",
+        "asia_oceania": "Asia & Oceanía"
+      }
+    },
+    "ntp": {
+      "label": "Servidor NTP",
+      "help_text": "Servidor para sincronización de hora"
+    },
+    "ota": {
+      "title": "Actualizaciones OTA",
+      "server_label": "Servidor de actualizaciones",
+      "server_placeholder": "https://andygotfridt.github.io/esp-lab/firmware/updates.json",
+      "server_help": "URL completa del archivo updates.json",
+      "channel_label": "Canal de actualizaciones",
+      "channel_help": "Cambia el canal para recibir versiones específicas",
+      "channels": {
+        "stable": "Stable (Estable)",
+        "beta": "Beta (Pruebas)",
+        "alpha": "Alpha (Desarrollo)",
+        "hotfix": "Hotfix (Correcciones urgentes)"
+      }
+    },
+    "hardware": {
+      "title": "Pines de Hardware",
+      "warning": "Advertencia:",
+      "warning_text": "Cambiar los pines requiere reiniciar el ESP32 y reconectar el hardware correctamente.",
+      "led_pin": "Pin LEDs",
+      "ldr_pin": "Pin LDR",
+      "num_leds": "Total de LEDs",
+      "num_leds_help": "Cantidad total de LEDs en tu tira"
+    },
+    "wifi": {
+      "title": "Red WiFi",
+      "reconfigure": "Reconfigurar WiFi"
+    }
+  },
+  "modal_update": {
+    "title": "Nueva Versión Disponible",
+    "current_version": "Versión actual:",
+    "changelog": "Changelog",
+    "loading": "Cargando información...",
+    "info_text": "Se instalará el firmware automáticamente desde GitHub. No desconectes el dispositivo durante el proceso (~60 segundos).",
+    "auto_update_button": "Actualizar Automáticamente",
+    "download_button": "Descargar .bin (opcional)"
+  },
+  "modal_update_path": {
+    "title": "Actualización por Etapas",
+    "latest_version": "Versión Reciente:",
+    "current_version": "Versión Actual:",
+    "warning_title": "Actualización por etapas requerida",
+    "warning_text": "Esta versión requiere actualizaciones intermedias debido a cambios importantes en el firmware o assets específicos de versiones intermedias.",
+    "steps_title": "Pasos de Actualización:",
+    "step": "Paso",
+    "update_to": "Actualizar a",
+    "critical": "CRÍTICO",
+    "no_notes": "Sin notas de versión",
+    "requires_min": "Requiere versión mínima:",
+    "start_button": "Iniciar Actualización al Primer Paso"
+  },
+  "toasts": {
+    "config_saved": "¡Configuración guardada automáticamente!",
+    "changes_saved": "¡Cambios guardados",
+    "save_error": "Error al guardar",
+    "restart_warning": "¡Guardado! El ESP32 se reiniciará...",
+    "test_running": "Ejecutando test de LEDs...",
+    "test_completed": "Test completado!",
+    "test_error": "Error en test",
+    "firmware_updated": "Firmware actualizado! Reconectando..."
+  },
+  "update_progress": {
+    "starting": "Iniciando actualización...",
+    "updating_web": "Actualizando archivos web",
+    "downloading_firmware": "Descargando firmware...",
+    "installing": "ESP32 instalando firmware... (~30 segundos)",
+    "completed": "✓ Actualización completada! El ESP32 se reiniciará...",
+    "error": "✗ Error:"
+  },
+  "wifi_status": {
+    "connected": "Conectado",
+    "disconnected": "Desconectado",
+    "error": "Error"
+  },
+  "footer": {
+    "developed_with": "Desarrollado con",
+    "by": "por"
+  },
+  "dialogs": {
+    "wifi_reset_confirm": "¿Estás seguro? Se borrarán las credenciales WiFi y el ESP32 se reiniciará.",
+    "wifi_reset_alert": "WiFi reseteado. El dispositivo se reiniciará.",
+    "led_test_confirm": "Se ejecutará un test de ~8 segundos probando todos los colores. ¿Continuar?",
+    "update_confirm_firmware": "El ESP32 descargará y actualizará:\n\n• Firmware (.bin)\n",
+    "update_confirm_web": "• Archivos web",
+    "update_confirm_warning": "\n\n⚠️ NO desconectes el ESP32 durante el proceso (~60-90 seg)",
+    "path_update_confirm": "¿Iniciar actualización a v{version}?\n\nDespués de esta actualización, el dispositivo se reiniciará y deberás continuar con los pasos siguientes.",
+    "no_update_available": "Sistema actualizado. Versión actual:",
+    "no_update_url": "No hay URL de descarga disponible. Verifica tu conexión."
+  },
+  "system": {
+    "title": "Sistema",
+    "branch": "Canal"
+  }
+}

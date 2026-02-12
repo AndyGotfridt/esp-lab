@@ -1,0 +1,171 @@
+{
+  "language": "en",
+  "version": "0.0.1",
+  "branch": "alpha",
+  "header": {
+    "title": "LED CLOCK",
+    "by": "by",
+    "advanced_settings": "Advanced Settings"
+  },
+  "display_colors": {
+    "title": "Display Colors",
+    "hours": "Hours",
+    "separator": "Separator",
+    "minutes": "Minutes"
+  },
+  "themes": {
+    "title": "Quick Themes",
+    "classic": "Classic",
+    "neon": "Neon",
+    "rainbow": "Rainbow",
+    "ocean": "Ocean",
+    "fire": "Fire",
+    "matrix": "Matrix",
+    "purple": "Purple",
+    "sunset": "Sunset",
+    "white": "White"
+  },
+  "preview": {
+    "title": "Preview",
+    "subtitle": "Real-time clock"
+  },
+  "brightness": {
+    "title": "Brightness Control",
+    "auto_brightness": "Automatic brightness",
+    "auto_brightness_tooltip": "Requires LDR sensor connected to work properly",
+    "manual_brightness": "Manual brightness",
+    "min_brightness": "Minimum brightness",
+    "max_brightness": "Maximum brightness",
+    "light": "Light",
+    "brightness": "Brightness",
+    "night_mode_warning": "Night mode active:",
+    "night_mode_warning_text": "Manual brightness changes will not apply until night schedule ends."
+  },
+  "night_mode": {
+    "title": "Night Mode",
+    "tooltip": "Night mode automatically reduces brightness during configured hours",
+    "enabled": "Enabled",
+    "night_brightness": "Night brightness",
+    "start_time": "Start",
+    "end_time": "End"
+  },
+  "buttons": {
+    "save": "Save Configuration",
+    "save_tooltip": "Changes are automatically saved after 500ms",
+    "close": "Close",
+    "save_changes": "Save Changes",
+    "later": "Later",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "test_leds": "Test LEDs"
+  },
+  "modal_advanced": {
+    "title": "Settings",
+    "timezone": {
+      "title": "Time Zone",
+      "label": "Select your time zone",
+      "search_placeholder": "Search city or country...",
+      "groups": {
+        "america": "America",
+        "europe_africa": "Europe & Africa",
+        "asia_oceania": "Asia & Oceania"
+      }
+    },
+    "ntp": {
+      "label": "NTP Server",
+      "help_text": "Server for time synchronization"
+    },
+    "ota": {
+      "title": "OTA Updates",
+      "server_label": "Update server",
+      "server_placeholder": "https://andygotfridt.github.io/esp-lab/firmware/updates.json",
+      "server_help": "Full URL of updates.json file",
+      "channel_label": "Update channel",
+      "channel_help": "Change channel to receive specific versions",
+      "channels": {
+        "stable": "Stable",
+        "beta": "Beta (Testing)",
+        "alpha": "Alpha (Development)",
+        "hotfix": "Hotfix (Urgent fixes)"
+      }
+    },
+    "hardware": {
+      "title": "Hardware Pins",
+      "warning": "Warning:",
+      "warning_text": "Changing pins requires restarting the ESP32 and reconnecting hardware correctly.",
+      "led_pin": "LED Pin",
+      "ldr_pin": "LDR Pin",
+      "num_leds": "Total LEDs",
+      "num_leds_help": "Total number of LEDs in your strip"
+    },
+    "wifi": {
+      "title": "WiFi Network",
+      "reconfigure": "Reconfigure WiFi"
+    }
+  },
+  "modal_update": {
+    "title": "New Version Available",
+    "current_version": "Current version:",
+    "changelog": "Changelog",
+    "loading": "Loading information...",
+    "info_text": "Firmware will be installed automatically from GitHub. Do not disconnect the device during the process (~60 seconds).",
+    "auto_update_button": "Update Automatically",
+    "download_button": "Download .bin (optional)"
+  },
+  "modal_update_path": {
+    "title": "Staged Update",
+    "latest_version": "Latest Version:",
+    "current_version": "Current Version:",
+    "warning_title": "Staged update required",
+    "warning_text": "This version requires intermediate updates due to major firmware changes or version-specific assets.",
+    "steps_title": "Update Steps:",
+    "step": "Step",
+    "update_to": "Update to",
+    "critical": "CRITICAL",
+    "no_notes": "No release notes",
+    "requires_min": "Requires minimum version:",
+    "start_button": "Start Update to First Step"
+  },
+  "toasts": {
+    "config_saved": "Configuration saved automatically!",
+    "changes_saved": "Changes saved",
+    "save_error": "Error saving",
+    "restart_warning": "Saved! ESP32 will restart...",
+    "test_running": "Running LED test...",
+    "test_completed": "Test completed!",
+    "test_error": "Test error",
+    "firmware_updated": "Firmware updated! Reconnecting..."
+  },
+  "update_progress": {
+    "starting": "Starting update...",
+    "updating_web": "Updating web files",
+    "downloading_firmware": "Downloading firmware...",
+    "installing": "ESP32 installing firmware... (~30 seconds)",
+    "completed": "✓ Update completed! ESP32 will restart...",
+    "error": "✗ Error:"
+  },
+  "wifi_status": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "error": "Error"
+  },
+  "footer": {
+    "developed_with": "Developed with",
+    "by": "by"
+  },
+  "dialogs": {
+    "wifi_reset_confirm": "Are you sure? WiFi credentials will be erased and ESP32 will restart.",
+    "wifi_reset_alert": "WiFi reset. Device will restart.",
+    "led_test_confirm": "A ~8 second test will run testing all colors. Continue?",
+    "update_confirm_firmware": "ESP32 will download and update:\n\n• Firmware (.bin)\n",
+    "update_confirm_web": "• Web files",
+    "update_confirm_warning": "\n\n⚠️ DO NOT disconnect ESP32 during the process (~60-90 sec)",
+    "path_update_confirm": "Start update to v{version}?\n\nAfter this update, the device will restart and you must continue with the following steps.",
+    "no_update_available": "System up to date. Current version:",
+    "no_update_url": "No download URL available. Check your connection."
+  },
+  "system": {
+    "title": "System Information",
+    "branch": "Channel"
+  }
+}
